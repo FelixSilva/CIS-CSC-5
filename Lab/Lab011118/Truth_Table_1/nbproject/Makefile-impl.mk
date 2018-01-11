@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Truth_Table_1
+PROJECTNAME=CppApplication_1
 
 # Active Configuration
 DEFAULTCONF=Debug

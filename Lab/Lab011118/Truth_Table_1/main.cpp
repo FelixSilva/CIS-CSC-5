@@ -19,16 +19,49 @@ using namespace std;
 //Program Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables 
+    bool x, y;
     
+    //Generate the Heading of the Truth Table
+    cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^Y X^Y^X"
+            "!(X&&Y) !X||!Y !(X||Y) !X&&!Y"<<endl;
     
-    // Initialize Variables 
+    //First Row 
+    x=true;
+    y=false;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"  ";
+    cout<<(x&&y?'T':'F')<<"    ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(x^y^x?'T':'F')<<"     ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"       ";
+    cout<<(!x&&!y?'T':'F')<<"";
+    cout<<endl;
     
+   
+    //Second Row
     
-    //Process
-    
-    
-    //Output the Results 
-    
+    x=true;
+    y=false;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"  ";
+    cout<<(x&&y?'T':'F')<<"    ";
+    cout<<(x||y?'T':'F')<<"    ";
+    cout<<(x^y?'T':'F')<<"    ";
+    cout<<(x^y^y?'T':'F')<<"     ";
+    cout<<(x^y^x?'T':'F')<<"     ";
+    cout<<(!(x&&y)?'T':'F')<<"      ";
+    cout<<(!x||!y?'T':'F')<<"       ";
+    cout<<(!(x||y)?'T':'F')<<"       ";
+    cout<<(!x&&!y?'T':'F')<<"";
+    cout<<endl;
   
 
     //Exit
